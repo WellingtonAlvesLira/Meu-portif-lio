@@ -1,0 +1,19 @@
+.bg_paginas{
+     background: rgb(32, 31, 31);
+     color: white;
+
+}
+
+.quem_sou_eu{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.img_perfil{
+
+    height: 500px;
+}
+
+.texto{
+    display: inline-block;
+}
