@@ -10,10 +10,12 @@
 }
 
 .img_perfil{
-
-    height: 500px;
+    
+border-radius: 50%;
+height: 500px;
 }
 
 .texto{
     display: inline-block;
 }
+
