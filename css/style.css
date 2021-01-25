@@ -1,8 +1,28 @@
+
+
 .bg_paginas{
-     background: rgb(32, 31, 31);
+     background: #201f1f;
      color: white;
 
 }
+
+.bem_vindo{
+  width: 30%;
+  height: 20%;
+  font-size: 1.5em;
+  color:#ffffff;
+  font-family: 'Roboto', sans-serif;    
+  text-align: center;
+  padding: 10px;
+  animation-name: bg_bem-vindo;
+  animation-duration: 18s; 
+}
+@keyframes bg_bem-vindo {
+    0%   {background-color: #ffffff; color: black; text-align: center;}
+    10%  {background-color: #0099ff;  color: #ffffff; text-align: left; }
+    20%  {background-color: #ffffff; color: black; text-align: right;}
+    30% {background-color: #0099ff;  color: #ffffff; text-align: center;}
+  }
 
 .quem_sou_eu{
     width: 50%;
@@ -18,4 +38,3 @@ height: 500px;
 .texto{
     display: inline-block;
 }
-
