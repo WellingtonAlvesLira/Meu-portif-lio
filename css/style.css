@@ -6,37 +6,60 @@
 
 }
 
-.bem_vindo{
+
+/*Animações do titulo (navegation)*/
+.titulo-nav{
   width: 30%;
   height: 20%;
   font-size: 1.5em;
-  color:#ffffff;
-  font-family: 'Roboto', sans-serif;    
-  text-align: center;
+  font-family: 'Roboto', sans-serif;   
+  text-align: center; 
   padding: 10px;
-  animation-name: bg_bem-vindo;
-  animation-duration: 18s; 
+  animation: bg_titulo-nav 4s infinite; 
 }
-@keyframes bg_bem-vindo {
-    0%   {background-color: #ffffff; color: black; text-align: center;}
-    10%  {background-color: #0099ff;  color: #ffffff; text-align: left; }
-    20%  {background-color: #ffffff; color: black; text-align: right;}
-    30% {background-color: #0099ff;  color: #ffffff; text-align: center;}
+@keyframes bg_titulo-nav {
+     
+    from{
+      background-color: white;
+      color: black;
+    }
+    to{
+      background-color: black;
+      color: white;
+    }
   }
 
 
-  #overflowTest {
+
+
+ /*Animações das minhas Skill(my-projetos)*/
+  #animation-skill{
+    position: relative;
+    animation: my-skill 10s infinite;
+  }
+  @keyframes my-skill {
+    0%   {left:0px; top:0px;}
+    25%  {left:100px; top:0px;}
+    50%  {left:100px; top:0px;}
+    75%  {left:0px; top:0px;}
+
+  }
+
+
+ 
+ /*Barra de rolagem my-projetos*/ 
+#overflow-my-projetos {
     color: white;
-    padding: 15px;
+    padding: 10px;
     width: auto;
-    height: 500px;
+    height: 400px;
     overflow: scroll;
-    border: 1px solid #ccc;
   }
 
 
 
 
+  
 .quem_sou_eu{
     width: 50%;
     border: 1px solid black;

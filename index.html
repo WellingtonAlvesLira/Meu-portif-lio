@@ -20,10 +20,10 @@
         <img src="https://img.icons8.com/doodle/48/000000/generic-mouse--v1.png" alt="" width="60" height="70">
         W.A.S.L
       </a>
-      <div class="bem_vindo col-8 m-3">
-        Seja Bem-vindo ao meu Perfil
+      <div class="titulo-nav col-8 m-3">
+        Seja Bem-vindo
       </div>
-      <button class="navbar-toggler col-sm-1" type="button" data-bs-toggle="collapse"
+      <button class="navbar-toggler col-lg-1" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -171,8 +171,8 @@
 
   <section class="container">
     <h2 class="fs-1 mb-5
-        " style="text-align: center; padding: 10px; margin-top: 100px;">Conhecimentos</h2>
-    <div class="container d-flex justify-content-center p-3"
+        " style="text-align: center; padding: 10px; margin-top: 100px;">Skills</h2>
+    <div id="animation-skill" class="container d-flex justify-content-center p-3"
       style="max-width: 800px; background: #020613; color: aliceblue; ">
       <div class="row p-2">
         <div class="col mt-3">
@@ -190,7 +190,7 @@
             <div class="media-body">
               <h5 class="mt-3" style="margin-right: 10px;">CSS3</h5>
             </div>
-            <img src="img/tec_2.webp" target class="align-self-center mr-3 rounded-circle " alt="..."
+            <img src="img/tec_2.webp" class="align-self-center mr-3 rounded-circle " alt="..."
               style="width: 64px; height: 64px;">
           </div>
         </div>
@@ -219,42 +219,68 @@
   </section>
 
   <section class="container">
+
     <h1 class="fs-1 mb-5" style="text-align: center; padding: 10px; margin-top: 100px;">Projetos</h1>
-    
-    <div id="overflowTest">
-      <img src="img/projeto_meu_perfil.png" style="max-width: 800px;" class=" img-projeto col-md-8 float-md-end mb-3 ms-md-3" alt="...">
+
+     <div class="row">
+
+      <div id="overflow-my-projetos" class="col-lg-6">
+        <img src="img/projeto_meu_perfil.png" style="max-width: 600px;" class=" float-md-end" alt="...">
+      </div>
+
+      <div class="col-lg-6 mt-5">
+        <p>
+          Este Projeto durou cerca de 3 meses para ser desenvolvido, o foco deste foi mostrar minhas habilidades
+          com HTML5, CSS3 e o Framework BOOTSTRAP que por sinal ajudou muito com suas classes já prontas para usa-lás.
+        </p>
+
+        <p>
+          Realizar o sonho de subir com um site no mundo WEB, sempre foi meu sonho. E com a ajuda de Deus que sempre
+          vem me dando sabedoria, eu vejo o quanto cheguei tão longe. E sou muito grato a isto!
+        </p>
+
+        <p>
+          Desde já agradeço aqueles que confiaram no meu trabalho, como familiares, minha esposa e amigos.
+          Peço que vocês fiquem à vontade para usufruir do primeiro de muitos projetos que estão por vir.
+        </p>
+      </div>
+
     </div>
-
-
-    <p>
-      Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Fusce dapibus,
-      tellus ac cursus commodo, tortor mauris paddenstoel nibh, ut fermentum massa justo sit amet risus. Lorem ipsum
-      dolor sit amet, consectetur adipiscing elit.
-    </p>
-
-    <p>
-      Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non
-      commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Id nullam tellus relem amet commodo
-      telemque olemit. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non
-      magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-    </p>
-
-    <p>
-      Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lantaarnpaal quam
-      venenatis vestibulum. Donec sed odio dui. Maecenas faucibus mollis interdum. Nullam quis risus eget urna salsa
-      tequila vel eu leo. Donec id elit non mi porta gravida at eget metus.
-    </p>
 
   </section>
 
+  <div class="alert alert-secondary mb-0" style="background:black;margin-top: 100px; ;" role="alert">
+      
+    <h3 style="text-align: center; color: white;">Contato</h3>
+
+    <div class="row p-4">
+
+      <div class="col-4 d-flex justify-content-center">
+        <a href="https://www.facebook.com/wellingtton.lira/">
+        <img src="img/footer-face.png" style="width: 50px;" alt="Facebook">
+        <p class="d-inline ml-2 mt-2 text-white">Facebook</p>
+        </a>
+      </div>
+
+      <div  class="col-4 d-flex justify-content-center">
+        <a href="https://wa.me/qr/4CHK4JIXWPYYP1">
+        <img src="img/footer-what.jpeg" style="width: 50px;" alt="WhatsApp">
+        <p class="d-inline ml-2 mt-2  text-white">WhatsApp</p>
+        </a>
+      </div>
+
+      <div  class="col-4 d-flex justify-content-center  ">
+        <a href="https://www.instagram.com/wellingtonnalves/">
+        <img src="img/footer-insta.png" style="width: 50px;" alt="Instagram">
+        <p class="d-inline ml-2 text-white">Instagram</p>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
-
-<script>
-
-  var d = new Date();
-  document.getElementById("dh_atual").innerHTML = d.toLocaleString();
-
-</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
