@@ -49,13 +49,39 @@
   }
 
 
-
-
-  
-.quem_sou_eu{
+@media(min-width:768px){
+  .estagio-responsivo{
     width: 50%;
-    border: 1px solid black;
+    height: 50%;
+    display: inline;
+  
+  }
+
+  h5{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .quem-sou-eu{
+   height: 90%;
+  }
+
+  .btn-lg{
+    position: relative;
+    left: 30px;
+    margin: 3px;
+  }
 }
+
+@media(max-width:375px){
+  .imagem-responsive{
+    width: 100%;
+  }
+}
+
 
 .img_perfil{
     
