@@ -49,6 +49,48 @@
   }
 
 
+  @media(max-width:360px){
+
+    .img-responsive{
+      width: 80%;
+      margin: auto;
+    }
+  
+    .titulo-estagio{
+      position: relative;
+      bottom: 80px;
+    }
+
+    .nav-responsiva{
+      width: 5%;
+      height: 5%;
+    }
+
+    #animation-skill{
+      border: 1px solid white;
+      display: block;
+      width: 30%;
+      height: 430px;
+      position: relative;
+      animation: my-skill 3s infinite;
+    }
+    @keyframes my-skill {
+      0%   {left:0px; top:0px;}
+      25%  {left:10px; top:0px;}
+      50%  {left:10px; top:0px;}
+      75%  {left:0px; top:0px;}
+  
+    }
+
+    .tm-skill{
+      color: white;
+      width: 120px;
+      background-size: cover;
+    }
+
+  }
+
+
 @media(min-width:768px){
   .estagio-responsivo{
     width: 50%;
@@ -76,11 +118,9 @@
   }
 }
 
-@media(max-width:375px){
-  .imagem-responsive{
-    width: 100%;
-  }
-}
+
+
+
 
 
 .img_perfil{
