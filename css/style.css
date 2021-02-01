@@ -1,12 +1,9 @@
-
-/*Animações do titulo (navegation)*/
 .titulo-nav{
   width: 30%;
-  height: 20%;
   font-size: 1.5em;
   font-family: 'Roboto', sans-serif;   
   text-align: center; 
-  padding: 10px;
+  padding-top: 10px;
   animation: bg_titulo-nav 4s infinite; 
 }
 @keyframes bg_titulo-nav {
@@ -24,10 +21,12 @@
 
 
 
+
+
  /*Animações das minhas Skill(my-projetos)*/
   #animation-skill{
     position: relative;
-    animation: my-skill 10s infinite;
+    animation: my-skill 4s infinite;
   }
   @keyframes my-skill {
     0%   {left:0px; top:0px;}
@@ -49,49 +48,82 @@
   }
 
 
-  @media(max-width:360px){
+  @media screen and (max-width:414px){
 
     .img-responsive{
-      width: 80%;
+      width: 50%;
       margin: auto;
     }
-  
-    .titulo-estagio{
+    .img-logo{
       position: relative;
-      bottom: 80px;
+      bottom: 15px;
     }
+     
+    .flutua-esq{
+      float: left;
+      width: 50px;
+      height: 50px;
+    } 
 
-    .nav-responsiva{
-      width: 5%;
-      height: 5%;
-    }
-
-    #animation-skill{
-      border: 1px solid white;
-      display: block;
-      width: 30%;
-      height: 430px;
-      position: relative;
-      animation: my-skill 3s infinite;
-    }
-    @keyframes my-skill {
-      0%   {left:0px; top:0px;}
-      25%  {left:10px; top:0px;}
-      50%  {left:10px; top:0px;}
-      75%  {left:0px; top:0px;}
-  
-    }
-
-    .tm-skill{
+    .text-logo{
       color: white;
-      width: 120px;
-      background-size: cover;
+      font-size: 15px;
+      position: relative;
+      bottom: 15px;
+      right: 5px;
+      font-weight: bold;
     }
+    
+    .text-boas-vindas{
+      font-size: 18px;
+    }
+
+    .img-quemsou{
+      width: 300px;
+      margin: auto;
+    }
+
+    .text-quemsoueu{
+      position: relative;
+      top: 50px;
+      float: left;
+    }
+
+    .titulo-nav-mobile{
+      font-family: 'Roboto', sans-serif;   
+      text-align: center; 
+      animation: bg_titulo-nav 4s infinite; 
+    }
+    @keyframes bg_titulo-nav {
+         
+        from{
+          background-color: white;
+          color: black;
+        }
+        to{
+          background-color: black;
+          color: white;
+        }
+      }
+
+      #animation-skill{
+        position: relative;
+        animation: my-skill 2s infinite;
+        border: 1px solid rgba(255, 255, 255, 0.555);
+        width: 30%;
+      }
+      @keyframes my-skill {
+        0%   {left:0px; top:0px;}
+        25%  {left:8px; top:0px;}
+        50%  {left:8px; top:0px;}
+        75%  {left:0px; top:0px;}
+    
+      }
 
   }
 
 
-@media(min-width:768px){
+@media (min-width:768px){
   .estagio-responsivo{
     width: 50%;
     height: 50%;
@@ -108,7 +140,12 @@
   }
 
   .quem-sou-eu{
-   height: 90%;
+    width: 50%;
+  }
+
+  .text-logo{
+    color: white;
+    font-weight: bold;
   }
 
   .btn-lg{
@@ -116,20 +153,26 @@
     left: 30px;
     margin: 3px;
   }
+
+  .titulo-nav{
+    width: 30%;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;   
+    text-align: center; 
+    padding-top: 10px;
+    animation: bg_titulo-nav 4s infinite; 
+  }
+  @keyframes bg_titulo-nav {
+       
+      from{
+        background-color: white;
+        color: black;
+      }
+      to{
+        background-color: black;
+        color: white;
+      }
+    }
+
 }
 
-
-
-
-
-
-.img_perfil{
-    
-border-radius: 50%;
-height: 500px;
-
-}
-
-.texto{
-    display: inline-block;
-}
