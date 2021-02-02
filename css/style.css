@@ -18,12 +18,7 @@
     }
   }
 
-
-
-
-
-
- /*Animações das minhas Skill(my-projetos)*/
+/*Animações das minhas Skill(my-projetos)*/
   #animation-skill{
     position: relative;
     animation: my-skill 4s infinite;
@@ -41,14 +36,13 @@
  /*Barra de rolagem my-projetos*/ 
 #overflow-my-projetos {
     color: white;
-    padding: 10px;
     width: auto;
     height: 400px;
     overflow: scroll;
   }
 
 
-  @media screen and (max-width:414px){
+  @media (max-width:414px){
 
     .img-responsive{
       width: 50%;
@@ -89,6 +83,21 @@
       float: left;
     }
 
+    .ul-menu{
+      text-align: center;
+    }
+
+    .btn-lg{
+      position: relative;
+      left: 4%;
+      margin-left: 5px;
+      color: white;
+     }
+
+     .text-rodape{
+       color: brown;
+     }
+
     .titulo-nav-mobile{
       font-family: 'Roboto', sans-serif;   
       text-align: center; 
@@ -120,6 +129,13 @@
     
       }
 
+      #overflow-my-projetos {
+        color: white;
+        width: 400px;
+        height: 400px;
+        overflow-x: scroll;
+      }
+
   }
 
 
@@ -135,10 +151,6 @@
     text-align: center;
   }
 
-  p{
-    text-align: center;
-  }
-
   .quem-sou-eu{
     width: 50%;
   }
@@ -149,9 +161,10 @@
   }
 
   .btn-lg{
-    position: relative;
-    left: 30px;
-    margin: 3px;
+   position: relative;
+   left: 25%;
+   margin-left: 5px;
+   color: white;
   }
 
   .titulo-nav{
