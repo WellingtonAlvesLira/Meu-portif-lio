@@ -94,40 +94,17 @@
       color: white;
      }
 
-     .text-rodape{
-       color: brown;
-     }
-
-    .titulo-nav-mobile{
-      font-family: 'Roboto', sans-serif;   
-      text-align: center; 
-      animation: bg_titulo-nav 4s infinite; 
+     #animation-skill{
+      position: relative;
+      animation: my-skill 2s infinite;
     }
-    @keyframes bg_titulo-nav {
-         
-        from{
-          background-color: white;
-          color: black;
-        }
-        to{
-          background-color: black;
-          color: white;
-        }
-      }
-
-      #animation-skill{
-        position: relative;
-        animation: my-skill 2s infinite;
-        border: 1px solid rgba(255, 255, 255, 0.555);
-        width: 30%;
-      }
-      @keyframes my-skill {
-        0%   {left:0px; top:0px;}
-        25%  {left:8px; top:0px;}
-        50%  {left:8px; top:0px;}
-        75%  {left:0px; top:0px;}
-    
-      }
+    @keyframes my-skill {
+      0%   {left:0px; top:0px;}
+      25%  {left:5px; top:0px;}
+      50%  {left:5px; top:0px;}
+      75%  {left:0px; top:0px;}
+  
+    }
 
       #overflow-my-projetos {
         color: white;
@@ -144,15 +121,10 @@
     width: 50%;
     height: 50%;
     display: inline;
-  
-  }
+ }
 
   h5{
     text-align: center;
-  }
-
-  .quem-sou-eu{
-    width: 50%;
   }
 
   .text-logo{
@@ -166,26 +138,6 @@
    margin-left: 5px;
    color: white;
   }
-
-  .titulo-nav{
-    width: 30%;
-    font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;   
-    text-align: center; 
-    padding-top: 10px;
-    animation: bg_titulo-nav 4s infinite; 
-  }
-  @keyframes bg_titulo-nav {
-       
-      from{
-        background-color: white;
-        color: black;
-      }
-      to{
-        background-color: black;
-        color: white;
-      }
-    }
 
 }
 
