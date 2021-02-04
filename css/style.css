@@ -55,6 +55,11 @@
       bottom: 15px;
     }
 
+    .btns-quem-sou-eu{
+      position: relative;
+      left: 25%;
+    }
+
     .topo-nave{
       height: auto;
     }
@@ -119,6 +124,17 @@
         overflow-x: scroll;
       }
 
+      .btn-modal, .posicao-modal{
+        margin-top: 10px;
+        position: relative;
+        left: 25%;
+      }
+
+      .btns-contato{
+        position: relative;
+        left: 25%;
+      }
+
   }
 
 
@@ -138,6 +154,11 @@
     font-weight: bold;
   }
 
+  .ul-menu{
+    text-align: center;
+  }
+
+
   .btn-lg{
    position: relative;
    left: 25%;
@@ -145,5 +166,18 @@
    color: white;
   }
 
+  .btn-modal{
+    margin-top: 10px;
+    position: relative;
+    left: 40%;
+  }
+
+  .btns-contato{
+    position: relative;
+    left: 30%;
+  }
+
 }
+
+
 
