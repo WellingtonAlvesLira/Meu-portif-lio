@@ -126,10 +126,10 @@
         overflow-x: scroll;
       }
 
-      .btn-modal, .posicao-modal{
+      .btn-modal .posicao-modal{
         margin-top: 10px;
         position: relative;
-        left: 25%;
+        left: 30%;
       }
 
       .btns-contato{
