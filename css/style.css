@@ -132,11 +132,11 @@
         left: 30%;
       }
 
-      .btns-contato{
+      .btn-modal{
+        margin-top: 10px;
         position: relative;
-        left: 25%;
+        left: 30%;
       }
-
   }
 
 
@@ -174,10 +174,6 @@
     left: 40%;
   }
 
-  .btns-contato{
-    position: relative;
-    left: 30%;
-  }
 
 }
 
