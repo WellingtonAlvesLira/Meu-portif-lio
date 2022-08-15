@@ -15,8 +15,8 @@
 
 <body>
 
-  <nav class="topo-nave navbar navbar navbar-dark container" style="background: #020613;">
-    <div class="container-fluid">
+  <nav class="topo-nave navbar navbar navbar-dark container-fluid" style="background: #020613;">
+    <div class="container">
       <a class="flutua-esq" href="#">
         <img class="flutua-esq img-logo" src="https://img.icons8.com/doodle/48/000000/generic-mouse--v1.png" alt="" width="60" height="70">
         <p class="text-logo text-white">W.A.S.L</p>
@@ -50,29 +50,31 @@
 
 
 
-    <div class="row mt-2 p-3">
+    <div class="row m-auto p-3">
 
-      <div class="col-lg-5 mt-5">
+      <div class=" cols col-md-3">
         <figure class="figure">
-          <img src="img/foto_perfil.jpeg" class="img-fluid rounded">
-          <figcaption class="figure-caption img-quemsou text-right fst-italic">
+          <img src="img/foto_perfil.jpeg" style="width: 500px;" class="img-fluid rounded">
+          <img src="img/qrcode_localhost.png" class="img-fluid rounded">
+          <figcaption class="figure-caption img-quemsou text-center">
+            QRCODE page<br>
             Wellington Alves S. Lira<br>
             <span style="color: black; font-weight: bold;" id="dh_atual"></span>
           </figcaption>
         </figure>
       </div>
-
-      <div class="col-lg-7 text-quemsoueu">
+       
+      <div class="cols col-md-9  text-quemsoueu">
         <div class="jumbotron text-white" style="background-image: url(img/bg-quem-sou-eu.jpg); background-repeat: repeat; background-position:right;">
           <h1 class="display-6">Olá,Me Chamo Wellington,<br>Sou Desenvolvedor <span style="color: aqua; font-weight: 400;">Front-End</span>.</h1>
-          <p class="lead">Atualmente, estou me dedicando na plataforma Mobile, junto com os profissionais que trabalham
+          <p class="lead">Atualmente, estou me dedicando nos Frameworks: AngularJs,Vuejs & Bootstrap, junto com os profissionais que trabalham
             no Comando geral da Policia Militar do estado do amazonas - AM.<br>
-            Sou estudante na area de sistemas de informações voltada para WEBSITES, cursando o 7º período,
-            restanto 1 semestre para eu me graduar nesta profissão que escolhi me dedicar até o fim da minha vida.
+            Sou estudante na area de sistemas de informações voltada para WEBSITES, cursando o 8º período,
+            restando 1 semestre para eu me graduar na profissão que escolhi me dedicar até o fim da minha vida.
           </p>
           <hr class="my-2">
           <p>Mais informações abaixo!</p>
-          <a class="btns-quem-sou-eu btn btn-lg bg-info text-white"  href="CV-Wellington_Alves_Lira.docx" role="button">Curriculum</a>
+          <a class="btns-quem-sou-eu btn btn-lg bg-info text-white"  href="CV-WELLINGTON.docx" role="button">Curriculum</a>
           <a class="btns-quem-sou-eu btn bg-info btn-lg text-white" href="https://github.com/WellingtonAlvesLira" role="button">GitHub</a>
         </div>
       </div>
@@ -80,6 +82,8 @@
     </div>
 
   </section>
+
+
 
   <section class="container" >
 
@@ -171,7 +175,7 @@
 
   <h2 class="fs-1 mb-5" style="text-align: center; padding: 10px; margin-top: 100px;">Skills</h2>
 
-  <section class="container p-5" style="background-image: url(img/bg-skill.jpg); background-repeat: repeat; background-position:center;">
+  <section class="container p-5" style="background-image: url(img/bg-quem-sou-eu.jpg); background-repeat: repeat; background-position:center;">
     <div class="container d-flex justify-content-center p-3"
       style="background: rgba(8, 8, 8, 0.466); color: aliceblue; ">
       <div id="animation-skill" class="row p-2">
@@ -185,7 +189,7 @@
           </div>
         </div>
 
-        <div class="col mt-3 d-flex justify-content-end">
+        <div class="col mt-3">
           <div>
             <img src="img/tec_2.jpg" class="align-self-center mr-3 rounded-circle " alt="..."
             style="width: 64px; height: 64px;">
@@ -195,22 +199,45 @@
           </div>
         </div>
 
-        <div class="w-100 mt-5"></div>
-
-        <div class="col mt-5">
+        
+        <div class="col mt-3">
           <div>
-            <img src="img/tec_3.png" class="align-self-center mr-3 rounded-circle" alt="..."
-              style="width: 64px; height: 64px;">
+            <img src="img/tec_5.png" class="align-self-center mr-3 rounded-circle " alt="..."
+            style="width: 64px; height: 64px;">
             <div class="media-body">
-              <h5 class="mt-3">BootsTrap</h5>
+              <h5 class="mt-3" style="margin-right: 10px;">ANGULARJS</h5>
             </div>
           </div>
         </div>
-        <div class="col  mt-5 d-flex justify-content-end">
+
+        <div class="w-100 mt-5"></div>
+        <div class="col mt-3">
           <div>
+            <img src="img/tec_4.jpg" class="align-self-center mr-3 rounded-circle" alt="..."
+              style="width: 64px; height: 64px;">
             <div class="media-body">
-              <img src="img/tec_4.jpg" class="align-self-center mr-3" alt="..." style="width: 64px; height: 64px;">
-              <h5 class="mt-3" style="margin-right: 10px;">PHP</h5>
+              <h5 class="mt-3">NodeJs</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mt-3">
+          <div>
+            <img src="img/tec_4.png" class="align-self-center mr-3 rounded-circle " alt="..."
+            style="width: 64px; height: 64px;">
+            <div class="media-body">
+              <h5 class="mt-3" style="margin-right: 10px;">Html</h5>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col mt-3">
+          <div>
+            <img src="img/tec_6.png" class="align-self-center mr-3 rounded-circle " alt="..."
+            style="width: 64px; height: 64px;">
+            <div class="media-body">
+              <h5 class="mt-3" style="margin-right: 10px;">VueJs</h5>
             </div>
           </div>
         </div>
@@ -248,30 +275,72 @@
 
   </section>
 
-  <div class="alert  mb-0" style="margin-top:100px; background-color: black; height: 300px;">
+  <section class="container mt-5">
+    <div class="row">
+
+     <div id="overflow-my-projetos" class="col-lg-7">
+       <img src="img/burger-app.png" style="width: 100%;" class=" float-md-end" alt="...">
+     </div>
+
+     <div class="col-lg-5 mt-5">
+       <p>
+        Projeto Burger, um dos sistemas que mais gostei. Nele utilizei o Vuejs e Vuetify, uma das ferramentas incrível para trabalhar, curva de aprendizado curta, bom pra quem ta iniciando no mundo WEB
+        A reutilização dos componentes são top.
+       </p>
+
+       <p>
+        Caso tenha interesse, visite o meu GitHub, o link se encontra na parte inferior desta página. Valeu, abração!
+       </p>
+
+   </div>
+
+ </section>
+
+ <section class="container mt-5">
+  <div class="row">
+
+   <div id="overflow-my-projetos" class="col-lg-7">
+     <img src="img/map-app.png" style="width: 100%;" class=" float-md-end" alt="...">
+   </div>
+
+   <div class="col-lg-5 mt-5">
+     <p>
+       Este Projeto durou cerca de 3 dias para ser desenvolvido, crud realizado para empresa MAP INNOVATION. O principal objetivo seria mostrar minhas habilidades com AngularJs. E avançar para a proxima etapa do processo seletivo na empresa.
+     </p>
+
+     <p>
+      Este projeto tem a função de cadastrar,deletar e pesquisar por funcionários. Não foi implementada a função de autenticação,pois seria um sistema interno, somente utilizado para certos colaboradores.
+     </p>
+   </div>
+
+ </div>
+
+</section>
+
+<div class="alert  mb-0" style="margin-top:100px; background-color: black; height: 300px;">
       
     <h3 style="text-align: center; color:white; margin-top: 40px;">Redes sociais</h3>
 
     <div class="row p-4 mt-5">
 
       <div class="col-4 d-flex justify-content-center ">
-        <a href="https://www.facebook.com/wellingtton.lira/">
-        <img src="img/footer-face.png" style="width: 50px;" alt="Facebook">
-        <p class="d-inline ml-2 mt-2 text-white">Facebook</p>
+        <a href="https://www.linkedin.com/in/wellington-alves-a204b618a/" target="_blank">
+        <img src="img/footer-face.png" style="width: 50px;" alt="Linkedin">
+        <p class="d-inline ml-2 mt-2 text-white">Linkedin</p>
         </a>
       </div>
 
       <div  class="col-4 d-flex justify-content-center">
-        <a href="https://wa.me/qr/4CHK4JIXWPYYP1">
+        <a href="https://web.whatsapp.com/" target="_blank">
         <img src="img/footer-what.jpeg" style="width: 50px;" alt="WhatsApp">
         <p class="d-inline ml-2 mt-2 text-white">WhatsApp</p>
         </a>
       </div>
 
       <div  class="col-4 d-flex justify-content-center    ">
-        <a href="https://www.instagram.com/wellingtonnalves/">
+        <a href="https://github.com/WellingtonAlvesLira">
         <img src="img/footer-insta.png" style="width: 50px;" alt="Instagram">
-        <p class="d-inline ml-2 text-white">Instagram</p>
+        <p class="d-inline ml-2 text-white">GitHub</p>
         </a>
       </div>
 
